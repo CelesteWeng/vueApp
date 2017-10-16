@@ -1,0 +1,176 @@
+/*foot部分*/
+.foot_nav{
+  display: flex;
+  justify-content: space-around;
+  height:49px;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  position: fixed;
+  bottom:0px;
+  width:100%;
+  background: #c01920;
+  color: #ffffff;
+  font-size: 10px;
+}
+.foot_nav img{
+  height:20px;
+  margin:6px auto;
+}
+.foot_nav a span{color:#ffffff; font-size:10px;}
+
+/*head部分*/
+.top{position: fixed;top:0px;z-index: 99; width:100%}
+img{
+  display: block;
+}
+.header{
+  height:44px;
+  background: #c01920;
+  text-align: center;
+  display: flex;
+
+  margin:0 auto;
+}
+.header img{
+  height:44px;
+  margin:0 auto;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  height:44px;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  background: #ffffff;
+}
+.nav img{
+  width:22px;
+}
+.nav a{
+  color: #2c3e50;
+  text-decoration: none;
+}
+.nav a.router-link-active{
+  color: #c01920;
+}
+
+/*about部分*/
+.about{overflow-x: hidden;}
+.about img{width:100%}
+img.in_title{width:68px;margin:20px auto;}
+img.in_text{width:350px;margin:0 auto;}
+.about .mint-button-text{font-size:12px;}
+.about button{width:124px;height: 44px;}
+.about .mint-button--danger{background-color:#c11920;margin-top:24px;}
+
+.process{padding-top:28px;}
+.about img.line{width:20px;margin:0 auto;margin-top: 22px;}
+.process h3{ color: #c11920;font-size:18px;font-weight: normal;padding:8px 0 12px 0;}
+.process .box{overflow: auto}
+.process .box ul{display: flex;overflow-x: auto;width:963px;overflow-y: hidden}
+.process .box ul li{padding:0px 6px;}
+.process p{font-size:10px;color:#333333; text-align: left; padding:16px 40px 24px 40px;}
+
+.honor .view{overflow: auto}
+.honor ul{display: flex;overflow-x: auto;width:516px;overflow-y: hidden}
+.honor ul li{padding:0 4px;}
+
+/*course部分*/
+.coz img{width: 100%}
+.coz_part img{width:100px; height:100px;margin-right: 12px;}
+.coz_part li{display: flex; border-bottom: 1px dotted #cccccc; padding:12px 0; margin:0 12px;}
+.coz_part .text{text-align: left;}
+h3{font-size:16px;color: #333333; padding:10px 0px;}
+.coz p{font-size: 12px;color: #888888;line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*env部分*/
+.env img{width:100%}
+
+/*FormSub部分*/
+.FormSub .mint-cell-wrapper{width:320px; height:44px;border:1px solid #8c8c8c; margin:0px auto; margin-bottom: 10px;text-align: left;}
+.FormSub button{width:320px;}
+.FormSub .mint-radio-label{font-size:12px; color: #333333;}
+.FormSub .mint-radiolist-title{font-size:16px; color: #333333;}
+.FormSub  .mint-field-core{-color: #c8c8c8; font-size: 16px;}
+.FormSub{padding-top:28px;}
+.selCoz .mint-cell-wrapper{margin-bottom: 0px; border: none;}
+.selCoz{margin-bottom: 10px; }
+
+/*home部分*/
+.Home .mint-swipe{height:150px;}
+.Home a{text-decoration: none; color:#333333;}
+.Home .mint-swipe img{width:100%;}
+.course{display: flex; flex-wrap: wrap;padding: 0px 16px 16px 16px;}
+.course a{width:25%;}
+.course span{width:25%; text-align: center; margin:8px 0px; font-size:10px;}
+.course span img{margin:0px auto; margin-bottom: 6px; width:50px; margin-top:16px;}
+.Home .mint-tab-item-label{font-size:16px; color: #666666}
+.Home .mint-tab-item{background: #f2f2f2;}
+.Home .is-selected{background: #c01920;}
+.Home .is-selected .mint-tab-item-label{ color: #ffffff;}
+.Home .mint-tab-container-wrap{text-align: left;}
+.Home .mint-cell-wrapper{background: none;}
+.mint-swipe-indicator{background: #ffffff;opacity: 0.3;}
+.is-active{opacity: 1;}
+.mint-swipe-indicators{margin-bottom: -6px;}
+.mint-cell-text{font-size:14px;color: #666666;line-height: 40px;padding-left: 20px;}
+
+.link{display: flex; width:316px;margin:0 auto;}
+.link .left{width:65%; display: flex;flex-wrap: wrap}
+.link .left span{width:47%; padding:0 6px 6px 0;}
+.link .left img{width:100%;}
+.link .right{width:35%}
+.link .right img{width: 99%}
+img.info,img.line{width:316px;margin:0 auto;}
+img.line{margin-bottom: 14px;}
+
+/*job部分*/
+.job img{width: 100%}
+.job_part img{width:100px; height:100px;margin-right: 12px;}
+.job_part li{display: flex; border-bottom: 1px dotted #cccccc; padding:12px 0; margin:0 12px;}
+.job_part .text{text-align: left;}
+.job h3{font-size:16px;color: #333333; padding:10px 0px;}
+.job p{font-size: 12px;color: #888888;line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*news部分*/
+.news_time{color: #c8c8c8;font-size:10px;}
+
+/*teacher部分*/
+.tch img{width: 100%}
+.tch_part img{width:100px; height:150px;margin-right: 12px;}
+.tch_part li{display: flex; border-bottom: 1px dotted #cccccc; padding:12px 0; margin:0 12px;}
+.tch_part .text{text-align: left;}
+.tch h3{font-size:16px;color: #333333; padding:10px 0px;}
+.tch p{font-size: 12px;color: #888888;line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*works部分*/
+.coz img{width: 100%}
+.coz_part img{width:80px; height:80px;margin-right: 12px;}
+.coz_part li{display: flex; padding:12px 0; margin:0 12px;}
+.coz_part .text{text-align: left;}
+h3{font-size:16px;color: #333333; padding:10px 0px;}
+p{font-size: 12px;color: #888888;line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
